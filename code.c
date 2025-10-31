@@ -176,6 +176,19 @@ int main() {
        printf("❌ Wrong! Correct answer: A) const\n\n");
    }
 
+   // ✅ New Question 15
+   printf("Q15. Which keyword is used to define a constant value in C?\n");
+   printf("A) constant\nB) define\nC) const\nD) static\n");
+   printf("Your answer: ");
+   scanf(" %c", &answer);
+   if (answer == 'C' || answer == 'c') {
+       printf("✅ Correct!\n\n");
+       score++;
+   } else {
+       printf("❌ Wrong! Correct answer: C) const\n\n");
+   }
+
+   
    // Show final score
    printf("=================================\n");
    printf("🎯 Your Final Score: %d / 13\n", score);
